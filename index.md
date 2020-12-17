@@ -13,8 +13,8 @@ humandate: "January 11-14, 2021"    # human-readable dates for the workshop (e.g
 humantime: "9:00 AM - 1:00 PM"    # human-readable times for the workshop (e.g., "9:00 am - 4:30 pm")
 startdate: 2021-01-11      # machine-readable start date for the workshop in YYYY-MM-DD format like 2015-01-01
 enddate: 2021-01-14        # machine-readable end date for the workshop in YYYY-MM-DD format like 2015-01-02
-instructor: ["Rob Lane", "Satwinder Singh", "Aaron Weston Limoges", "Mengzhen Sun"] # boxed, comma-separated list of instructors' names as strings, like ["Kay McNulty", "Betty Jennings", "Betty Snyder"]
-helper: ["TBD"]     # boxed, comma-separated list of helpers' names, like ["Marlyn Wescoff", "Fran Bilas", "Ruth Lichterman"]
+instructor: ["Alan Crosswell", "Jonathan Reeve", "Michael Weisner", "Wei yin"]
+helper: ["Axinia Radeva ", "Wei Yin"]
 email: ["rcfoundations@columbia.edu"]    # boxed, comma-separated list of contact email addresses for the host, lead instructor, or whoever else is handling questions, like ["marlyn.wescoff@example.org", "fran.bilas@example.org", "ruth.lichterman@example.org"]
 collaborative_notes:  "https://docs.google.com/document/d/12j6RaSslFodgEr2LrB5rdgGx2x4MFbrXxX2yJzFtQUc/edit?usp=sharing"
 eventbrite:           # optional: alphanumeric key for Eventbrite registration, e.g., "1234567890AB" (if Eventbrite is being used)
@@ -428,7 +428,7 @@ during the workshop.
 
 <h2 id="data">Download Data</h2>
 
-<p>In addition to installing needed software, you will need to download specific files for certain sessions/
+<p>In addition to installing needed software, you will need to download specific files for certain sessions.</p>
 
 
 <h3>UNIX</h3>
@@ -439,11 +439,3 @@ during the workshop.
 <strong>Let your instructor know if you need help with this step</strong>.
 You should end up with a new folder called <strong><code class="language-plaintext highlighter-rouge">data-shell</code></strong> on your Desktop.</li>
 </ol>
-
-<h3>Python</h3>
-
-<p>The data we will be using for Python is taken from the <a href="https://en.wikipedia.org/wiki/Gapminder_Foundation">gapminder</a> dataset.
-To obtain it, download and unzip the file
-<a href="./files/python-novice-gapminder-data.zip">python-novice-gapminder-data.zip</a>.
-In order to follow the presented material, you should launch the JupyterLab
-server in the root directory (see <a href="./01-run-quit/#starting-jupyterlab">Starting JupyterLab</a>).</p>
