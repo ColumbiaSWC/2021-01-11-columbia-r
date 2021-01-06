@@ -434,7 +434,7 @@ during the workshop.
 <h3>UNIX</h3>
 
 <ol>
-  <li>Download <a href="./data/data-shell.zip">data-shell.zip</a> and move the file to your Desktop.</li>
+  <li>Download <a href="https://swcarpentry.github.io/shell-novice/data/data-shell.zip">data-shell.zip</a> and move the file to your Desktop.</li>
   <li>Unzip/extract the file.
 <strong>Let your instructor know if you need help with this step</strong>.
 You should end up with a new folder called <strong><code class="language-plaintext highlighter-rouge">data-shell</code></strong> on your Desktop.</li>
