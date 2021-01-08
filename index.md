@@ -372,6 +372,34 @@ please preview your site before committing, and make sure to run
 'tools/check' as well.
 {% endcomment %}
 
+
+
+
+<h2 id="syllabus">Syllabus</h2>
+
+{% if site.carpentry == "swc" %}
+{% include swc/syllabus.html %}
+{% elsif site.carpentry == "dc" %}
+{% include dc/syllabus.html %}
+{% elsif site.carpentry == "lc" %}
+{% include lc/syllabus.html %}
+{% endif %}
+
+<hr/>
+
+{% comment %}
+SETUP
+
+Delete irrelevant sections from the setup instructions.  Each
+section is inside a 'div' without any classes to make the beginning
+and end easier to find.
+
+This is the other place where people frequently make mistakes, so
+please preview your site before committing, and make sure to run
+'tools/check' as well.
+{% endcomment %}
+
+
 <h2 id="setup">Setup</h2>
 
 <p>
